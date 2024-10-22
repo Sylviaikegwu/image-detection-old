@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#upload-form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#results {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.result {
+  margin: 10px;
+}
+
+#loading {
+  text-align: center;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.detected-image {
+  margin: 20px 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.detected-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.detection-summary {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.detection-count {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #e0e0e0;
+  border-radius: 3px;
+}
+
+.detection-item {
+  margin: 5px 0;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.class-name {
+  font-weight: bold;
+  color: #cc4e4e;
+}
+
+.confidence {
+  color: #666;
+  margin-left: 10px;
+}
+
+.error {
+  color: #dc3545;
+  padding: 10px;
+  background-color: #f8d7da;
+  border-radius: 4px;
+  margin: 10px 0;
+}
